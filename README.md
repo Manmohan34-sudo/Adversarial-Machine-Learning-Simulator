@@ -14,23 +14,7 @@ This project features both a modular structure for local development and a fully
   - **Spatial Smoothing**: Standard 2D Gaussian/Box blurs to wash out pixel-level offsets.
   - **Bit-depth Reduction**: Drops color resolution to eliminate sub-threshold gradients.
 - **Glassmorphic UI**: Side-by-side comparative dashboard displaying predictions, scaled perturbation heatmaps, and defense results.
----
-## 🚀 How to Run the All-In-One File
-For the ultimate convenience, you can run the entire project (Frontend + Backend + Models) using a **single Python script**:
-### Step 1: Install Dependencies
-```bash
-pip install torch torchvision flask flask-cors Pillow numpy
-```
-### Step 2: Run the Simulator
-```bash
-python adversarial_simulator_all_in_one.py
-```
-### Step 3: Open in Browser
-Open your browser and navigate to:
-```text
-http://127.0.0.1:5000/
-```
----
+
 ## 🛠️ Folder Structure (Modular Version)
 If you prefer to work with separate modules, the repository contains:
 ```text
